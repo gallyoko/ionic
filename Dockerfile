@@ -22,4 +22,4 @@ RUN adduser --quiet --disabled-password --shell /bin/bash --home /home/${login_s
 # Modification du mot de passe pour "${login_ssh}"
 RUN echo "${login_ssh}:${password_ssh}" | chpasswd
 
-EXPOSE 22 8100
+EXPOSE 22 35729 53703 8100
