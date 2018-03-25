@@ -3,7 +3,7 @@
 # VERSION               0.0.1
 #
 
-FROM     fwed/nodejs-base-project
+FROM     fwed/node-js
 MAINTAINER Gallyoko "yogallyko@gmail.com"
 
 # Definition des constantes
